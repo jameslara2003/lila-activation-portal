@@ -1,18 +1,3 @@
-// app/layout.jsx – Required root layout for Next.js 13+ App Router
-
-export const metadata = {
-  title: 'Lila AI Activation Portal',
-  description: 'Activate the AI assistant Lila for Ms. Claudine\'s class.',
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className="bg-purple-50 text-gray-800 font-sans">{children}</body>
-    </html>
-  );
-}
-
 // app/page.jsx – Lila Activation Page
 
 "use client";
@@ -72,33 +57,5 @@ export default function LilaActivation() {
         </CardContent>
       </Card>
     </div>
-  );
-}
-
-// app/components/ui/button.jsx
-export function Button({ children, ...props }) {
-  return (
-    <button {...props} className={`px-4 py-2 rounded ${props.className}`}>
-      {children}
-    </button>
-  );
-}
-
-// app/components/ui/card.jsx
-export function Card({ children, className = "" }) {
-  return <div className={`bg-white shadow-md rounded p-4 ${className}`}>{children}</div>;
-}
-
-export function CardContent({ children, className = "" }) {
-  return <div className={className}>{children}</div>;
-}
-
-// app/components/ui/input.jsx
-export function Input(props) {
-  return (
-    <input
-      {...props}
-      className={`border rounded px-3 py-2 w-full ${props.className}`}
-    />
   );
 }
