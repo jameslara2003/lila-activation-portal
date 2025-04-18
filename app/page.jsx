@@ -1,3 +1,5 @@
+"use client";
+
 // app/layout.jsx – Required root layout for Next.js 13+ App Router
 
 export const metadata = {
@@ -14,8 +16,6 @@ export default function RootLayout({ children }) {
 }
 
 // app/page.jsx – Lila Activation Page
-
-"use client";
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
