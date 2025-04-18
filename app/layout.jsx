@@ -1,3 +1,5 @@
+// app/layout.jsx – Required root layout for Next.js 13+ App Router
+
 export const metadata = {
   title: 'Lila AI Activation Portal',
   description: 'Activate the AI assistant Lila for Ms. Claudine\'s class.',
