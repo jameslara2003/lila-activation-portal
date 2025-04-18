@@ -1,4 +1,4 @@
-// Lila AI Activation Portal - Futuristic Style with Activation Button
+// app/page.jsx – Lila Activation Page
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
