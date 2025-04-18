@@ -1,11 +1,9 @@
-// app/page.jsx – Lila Activation Page
-
 "use client";
 
 import { useState } from 'react';
-import { Button } from './components/ui/button.jsx';
-import { Card, CardContent } from './components/ui/card.jsx';
-import { Input } from './components/ui/input.jsx';
+import { Button } from './components/ui/button';
+import { Card, CardContent } from './components/ui/card';
+import { Input } from './components/ui/input';
 
 export default function LilaActivation() {
   const [activated, setActivated] = useState(false);
@@ -30,7 +28,9 @@ export default function LilaActivation() {
           {!activated ? (
             <>
               <h1 className="text-3xl font-bold text-center text-purple-700">Activate Lila AI Assistant</h1>
-              <p className="text-center text-sm text-gray-600">Welcome Ms. Claudine! Please enter your activation code below to begin.</p>
+              <p className="text-center text-sm text-gray-600">
+                Welcome Ms. Claudine! Please enter your activation code below to begin.
+              </p>
               <Input
                 placeholder="Enter activation code"
                 className="border-purple-400 focus:border-purple-600"
