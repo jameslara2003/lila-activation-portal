@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: 'Lila AI Activation Portal',
-  description: 'Activate the AI assistant Lila for Ms. Claudine\'s class.',
+  description: "Activate the AI assistant Lila for Ms. Claudine's class.",
 };
 
 export default function RootLayout({ children }) {
